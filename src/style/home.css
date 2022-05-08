@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.image{
+  object-fit: cover;
+  height: 70vh;
+  border-radius: 1rem;
+  width: 90%;
+}
+
+.home_container{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.cards img{
+  object-fit: cover;
+  width: 10rem;
+}
+
+.card{
+  display: flex;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.blockchain_card img{
+  width: 50%;
+}
+
+.card_content{
+  padding: 2rem;
+}
+
+.bitcoin_card img{
+  width: 50%;
+}
+
+.read_btn{
+  border: none;
+  padding: 1rem;
+  font-family: 'Lora', serif;
+  background-color: rgb(16, 18, 24);
+  color: white;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.home_content{
+  margin: 1%;
+  padding: 1% 0;
+  border-radius: 0.3rem;
+  min-height: 50vh;
+  background-color: rgb(239, 239, 239);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .image{
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .home_content{
+    font-size: 0.6rem;
+  }
+
+  .card{
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .card_content{
+    padding: 1rem;
+  }
+
+  .read_btn{
+    padding: 0.3rem;
+    border-radius: 0;
+    font-size: 0.6rem;
+  }
+}

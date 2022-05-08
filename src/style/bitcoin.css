@@ -1,0 +1,19 @@
+.container{
+  min-height: 70vh;
+  margin: 0 25%;
+  padding: 1% 5%;
+}
+
+.container h2{
+  color: rgb(73, 73, 73);
+}
+
+.container h3{
+  color: rgb(129, 129, 129);
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    margin: 0;
+  }
+}
