@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.btn{
+  border: none;
+  padding: 0.6rem;
+  font-family: 'Lora', serif;
+  background-color: rgb(16, 18, 24);
+  color: white;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+}
+
+input{
+  padding: 0.5rem;
+}
+
+.output{
+  margin-bottom: 5rem;
+}
