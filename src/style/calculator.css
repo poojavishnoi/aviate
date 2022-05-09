@@ -10,10 +10,32 @@
   border-radius: 0.5rem;
 }
 
+.currency_exchange_calci{
+margin-top: 5rem;
+}
+
 input{
+  margin: 0.3rem;
   padding: 0.5rem;
+  border-radius: 0.2rem;
+
 }
 
 .output{
   margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .currency_exchange_calci{
+    font-size: 0.7rem;
+  }
+
+  input{
+    padding: 0.6rem;
+    margin: 0.3rem;
+  }
+
+  .btn{
+    margin: 1rem 0 0 7rem;
+  }
 }
